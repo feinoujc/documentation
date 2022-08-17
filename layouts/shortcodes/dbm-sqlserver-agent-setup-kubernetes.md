@@ -17,8 +17,7 @@ helm install <RELEASE_NAME> \
 init_config:
 instances:
   - dbm: true
-    host: <HOSTNAME>
-    port: 1433
+    host: <HOSTNAME>,<PORT>
     username: datadog
     password: '<PASSWORD>'
     connector: 'odbc'
